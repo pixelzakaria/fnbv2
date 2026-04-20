@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "festival-fnb",
+    "empty": "fnbv2-8998e"
+  },
+  "targets": {},
+  "etags": {}
+}

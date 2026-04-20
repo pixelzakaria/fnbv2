@@ -1,0 +1,70 @@
+/* Clean Light Mode Background */
+.twilight-nebula-bg {
+  background: radial-gradient(circle at 50% 0%, #f0f9ff 0%, #ffffff 70%);
+}
+
+.floating-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    radial-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px, 100px 100px;
+  background-position: 0 0, 25px 25px;
+  pointer-events: none;
+}
+
+.drifting-lasers {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: 
+    linear-gradient(45deg, transparent 40%, rgba(37, 99, 235, 0.03) 45%, transparent 50%),
+    linear-gradient(-45deg, transparent 40%, rgba(139, 92, 246, 0.02) 45%, transparent 50%);
+  animation: laserDrift 20s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes laserDrift {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 3D Bento Box Tilt (Light Mode) */
+.feature-bento-box {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.feature-bento-box:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 20px rgba(37, 99, 235, 0.05);
+  border-color: #bfdbfe;
+}
+
+/* CTA Button Effects (Solid Blue for Light Mode) */
+.cta-button {
+  background: #2563eb;
+  color: #ffffff;
+  animation: breathe-glow 3s ease-in-out infinite;
+}
+
+.cta-button:hover {
+  animation: none;
+  background: #1d4ed8;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px) scale(1.02);
+}
+
+@keyframes breathe-glow {
+  0%, 100% { box-shadow: 0 0 15px rgba(37, 99, 235, 0.15); }
+  50% { box-shadow: 0 0 25px rgba(37, 99, 235, 0.3); }
+}

@@ -1,0 +1,270 @@
+[
+    {
+    "Catégorie": "Vin",
+    "Produit": "Volubilia Rouge 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Volubilia Blanc 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Volubilia Rosé 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Volubilia Gris 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Volubilia Rouge 150 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Sahari Rouge 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Sahari Rosé 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Sahari Gris 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Sahari Rouge 150 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Médaillon Rouge 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Médaillon Blanc 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Médaillon Rosé 75 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Médaillon Rouge 150 cl"
+   },
+   {
+    "Catégorie": "Vin",
+    "Produit": "Château Roslane Blanc 75 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Flag 25 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Flag 33 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Flag 50 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Casablanca 25 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Casablanca 33 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Heineken 25 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Heineken 33 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Budweiser 33 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Corona 33 cl"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Casablanca Fût 20 L"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Casablanca Fût 30 L"
+   },
+   {
+    "Catégorie": "Bière",
+    "Produit": "Casablanca Fût 50 L"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Absolut 70 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Absolut 100 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Absolut 150 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Absolut Elyx 70 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Grey Goose 70 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Grey Goose 150 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Grey Goose 300 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Belvedere 70 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Belvedere 150 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Belvedere 300 cl"
+   },
+   {
+    "Catégorie": "Vodka",
+    "Produit": "Ciroc 70 cl"
+   },
+   {
+    "Catégorie": "Whisky",
+    "Produit": "Johnnie Walker Red 70 cl"
+   },
+   {
+    "Catégorie": "Whisky",
+    "Produit": "Johnnie Walker Black 70 cl"
+   },
+   {
+    "Catégorie": "Whisky",
+    "Produit": "Johnnie Walker Black 100 cl"
+   },
+   {
+    "Catégorie": "Whisky",
+    "Produit": "Chivas Regal 70 cl"
+   },
+   {
+    "Catégorie": "Whisky",
+    "Produit": "Chivas Regal 100 cl"
+   },
+   {
+    "Catégorie": "Whisky",
+    "Produit": "Jack Daniel’s 70 cl"
+   },
+   {
+    "Catégorie": "Whisky",
+    "Produit": "Jack Daniel’s 100 cl"
+   },
+   {
+    "Catégorie": "Gin",
+    "Produit": "Bombay Sapphire 70 cl"
+   },
+   {
+    "Catégorie": "Gin",
+    "Produit": "Bombay Sapphire 100 cl"
+   },
+   {
+    "Catégorie": "Gin",
+    "Produit": "Hendrick’s 70 cl"
+   },
+   {
+    "Catégorie": "Gin",
+    "Produit": "Beefeater 70 cl"
+   },
+   {
+    "Catégorie": "Rhum",
+    "Produit": "Havana Club 70 cl"
+   },
+   {
+    "Catégorie": "Rhum",
+    "Produit": "Havana Club 100 cl"
+   },
+   {
+    "Catégorie": "Rhum",
+    "Produit": "Bacardi 70 cl"
+   },
+   {
+    "Catégorie": "Rhum",
+    "Produit": "Bacardi 100 cl"
+   },
+   {
+    "Catégorie": "Tequila",
+    "Produit": "José Cuervo 70 cl"
+   },
+   {
+    "Catégorie": "Tequila",
+    "Produit": "Patrón 70 cl"
+   },
+   {
+    "Catégorie": "Tequila",
+    "Produit": "Don Julio 70 cl"
+   },
+   {
+    "Catégorie": "Champagne",
+    "Produit": "Moët & Chandon 75 cl"
+   },
+   {
+    "Catégorie": "Champagne",
+    "Produit": "Moët & Chandon 150 cl"
+   },
+   {
+    "Catégorie": "Champagne",
+    "Produit": "Moët & Chandon 300 cl"
+   },
+   {
+    "Catégorie": "Champagne",
+    "Produit": "Dom Pérignon 75 cl"
+   },
+   {
+    "Catégorie": "Soft",
+    "Produit": "Coca-Cola 25 cl"
+   },
+   {
+    "Catégorie": "Soft",
+    "Produit": "Coca-Cola 33 cl"
+   },
+   {
+    "Catégorie": "Soft",
+    "Produit": "Coca-Cola 50 cl"
+   },
+   {
+    "Catégorie": "Soft",
+    "Produit": "Sprite 33 cl"
+   },
+   {
+    "Catégorie": "Soft",
+    "Produit": "Fanta 33 cl"
+   },
+   {
+    "Catégorie": "Soft",
+    "Produit": "Schweppes Tonic 25 cl"
+   },
+   {
+    "Catégorie": "Energy",
+    "Produit": "Red Bull 25 cl"
+   },
+   {
+    "Catégorie": "Energy",
+    "Produit": "Monster 50 cl"
+   }
+]
