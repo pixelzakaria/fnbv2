@@ -5,7 +5,7 @@ import { auth } from '../firebase';
 import { signOut } from 'firebase/auth';
 import {
   LayoutDashboard, Boxes, ArrowRightLeft, ScrollText,
-  Users, Store, LogOut, Menu, X, PackageCheck, Undo2, BarChart3, Truck
+  Users, Store, LogOut, Menu, X, PackageCheck, Undo2, BarChart3, Truck, Target
 } from 'lucide-react';
 
 export default function Layout({ children }) {
@@ -24,11 +24,12 @@ export default function Layout({ children }) {
     { name: 'Dashboard', path: '/admin', icon: LayoutDashboard },
     { name: 'Master Inventory', path: '/admin/inventory', icon: Boxes },
     { name: 'Transfer Stock', path: '/admin/transfer', icon: ArrowRightLeft },
-    { name: 'In Transit', path: '/admin/transit', icon: Truck }, // <--- ADD THIS
+    { name: 'In Transit', path: '/admin/transit', icon: Truck },
     { name: 'Confirm Returns', path: '/admin/returns', icon: Undo2 },
     { name: 'Audit Logs', path: '/admin/logs', icon: ScrollText },
     { name: 'Manage Users', path: '/admin/users', icon: Users },
     { name: 'Reports', path: '/admin/reports', icon: BarChart3 },
+    { name: 'Gap Engine', path: '/admin/gapengine', icon: Target },
   ];
 
   const substockLinks = [
@@ -42,6 +43,7 @@ export default function Layout({ children }) {
     { name: 'Dashboard', path: '/admin', icon: LayoutDashboard },
     { name: 'Audit Logs', path: '/admin/logs', icon: ScrollText },
     { name: 'Reports', path: '/admin/reports', icon: BarChart3 },
+    { name: 'Gap Engine', path: '/admin/gapengine', icon: Target },
   ];
 
   const barLinks = [

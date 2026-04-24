@@ -17,6 +17,7 @@ import ManageUsers from './pages/ManageUsers';
 import Reports from './pages/Reports';
 import ConfirmReturns from './pages/ConfirmReturns';
 import InTransit from './pages/InTransit'; // <--- ADD THIS
+import GapEngine from './pages/GapEngine'; // <--- ADD THIS
 
 // 3. Sub-Stock Pages
 import SubStockDashboard from './pages/SubStockDashboard';
@@ -50,7 +51,7 @@ function App() {
         <Routes>
           {/* Smart Root Route */}
           <Route path="/" element={<RootRedirect />} />
-          
+
           {/* Optional: Keep the Landing Page accessible at a specific URL if you ever need it */}
           <Route path="/home" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
@@ -88,7 +89,13 @@ function App() {
               <Layout><InTransit /></Layout>
             </ProtectedRoute>
           } />
-          
+
+          <Route path="/admin/gapengine" element={
+            <ProtectedRoute allowedRoles={['admin']}>
+              <Layout><GapEngine /></Layout>
+            </ProtectedRoute>
+          } />
+
           <Route path="/admin/inventory" element={
             <ProtectedRoute allowedRoles={['admin']}>
               <Layout><ManageInventory /></Layout>
